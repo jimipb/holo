@@ -1,0 +1,14 @@
+Fresnel-Hologram
+
+- Strahlenteiler direkt vor Strahlenaufweiter
+- Strahlaufweitung des Lasers sehr stark, schon 50-60cm nach
+  Strahlenteiler ist Strahl weiter als Papierschirm
+- Polarisationsfilter vor Strahlenteiler zur Abschwächung des
+  Referenzstrahls
+- Setzen beider Spiegel, Referenzstrahl direkt auf Schirm & Objektstrahl
+  auf Objekt
+- Setzen des Schirms, sodass Reflektion des Objektes eingefangen wird
+- Einstellung des Spiegels zum Referenzstrahl
+- Ausmessen Intensität der Objektreflektion
+- Einstellung des Polfilters --> Gleiche Lichtintensität von Referenz-
+  und Objektstrahl
