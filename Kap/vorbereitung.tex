@@ -20,12 +20,12 @@ und $b_k$ werden hier beschrieben durch
         \end{align*}
 Dies soll nun an zwei wichtigen Funktionen demonstriert werden.
             \subsubsection*{Rechtecksfunktion}
-        \begin{wrapfigure}{r}{0.4\textwidth}
-            \vspace{-10pt}
+        \begin{wrapfigure}{r}{0.45\textwidth}
+            \vspace{10pt}
             \centering
             \includegraphics[width=0.35\textwidth]{Abb/rechteck.pdf}
             \caption{Rechtecksfunktion}
-            \vspace{-10pt}
+            \vspace{10pt}
         \end{wrapfigure}
 Die Rechtecksfunktion ist gegeben durch
         \begin{align*}
@@ -56,8 +56,24 @@ errechnet werden. Für $T=2$ ergibt sich:
                     \right]
                     = \frac{2}{\pi k} \left( 1 + \cos(\pi k)\right)
                 \end{align*}
+            \end{itemize}
 Somit erhalten wir für die Fourierreihenentwicklung der Rechtecksfunktion
                 \begin{align*}
                    f(t) = \sum_{k=0}^\infty \frac{2}{\pi k} (1 + \cos(\pi k)) 
                    \sin(\pi k t) 
+                \end{align*}
+                \begin{figure}[htb]
+                   \centering
+                   \includegraphics[width=0.8\textwidth]{Abb/rechteck_fit.pdf} 
+                   \caption{Die Rechtecksfunktion und die Reihenentwicklung für 1 und 2}
+                \end{figure}
+
+                    \subsubsection*{Dreiecksfunktion}
+Die Dreiecksfunktion ist gegeben durch
+                \begin{align*}
+                   g(t) = \begin{cases}
+                    -2(x+1) & \text{für } -1   < t < -0,5 \\
+                    2x      & \text{für } -0,5 < t <  0,5 \\
+                    2(x+1)  & \text{für } 0,5  < t <  1
+                        \end{cases}
                 \end{align*}

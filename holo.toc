@@ -1,0 +1,5 @@
+\babel@toc {ngerman}{}
+\contentsline {chapter}{\numberline {1}Einleitung}{3}{chapter.1}% 
+\contentsline {chapter}{\numberline {2}Vorbereitung}{4}{chapter.2}% 
+\contentsline {section}{\numberline {2.1}Fourierreihen und -transformation}{4}{section.2.1}% 
+\contentsline {chapter}{\numberline {3}Versuchsdurchf\IeC {\"u}hrung}{6}{chapter.3}% 
