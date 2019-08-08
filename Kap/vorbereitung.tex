@@ -17,7 +17,8 @@ Frequenzen und Amplituden zu entwickeln.
 $T$ sei hierbei die Periodendauer der Funktion. Die \emph{Fourierkoeffizienten} $a_k$
 und $b_k$ werden hier beschrieben durch
         \begin{align*}
-            a_0 = \frac{1}{T} \int_{-T/2}^{+T/2} f(t) \dt \quad &a_k = \frac{2}{T} \int_{-T/2}^{+T/2} f(t) \cos(\omega_k \, t) \dt \;(k\neq 0)\\
+            a_0 = \frac{1}{T} \int_{-T/2}^{+T/2} f(t) \dt \quad &a_k = \frac{2}{T}
+            \int_{-T/2}^{+T/2} f(t) \cos(\omega_k \, t) \dt \;(k\neq 0)\\
             &b_k = \frac{2}{T} \int_{-T/2}^{+T/2} f(t) \sin()\omega_k \, t) \dt
         \end{align*}
 Dies soll nun an zwei wichtigen Funktionen demonstriert werden.
@@ -157,3 +158,160 @@ Funktionen. Für alle integrierbaren Funktionen ist sie definiert als
 Durch die Fouriertransformation lässt sich eine Funktion über eine ihr zugehörige
 andere Variable darstellen. Beispiele hierfür sind Ort $x$ und Wellenzahl $k$,
 oder Zeit $t$ und Frequenz $\omega$.
+
+    \section{Beugung}
+In der Holografie natürlich ein weiteres Thema ist die Beugung, insbesondere der 
+Zusammenhang mit der Fouriertransformation. \emph{Beugung} und \emph{Diffraktion} 
+beschreibt die Ablenkung beliebiger Wellen an einem Hindernis.
+
+        \subsection*{Das Beugungsintegral}
+Man betrachte an einer Öffnung $\sigma$, die an der Stelle z=0 in der x-y-Ebene steht,
+ eine Feldamplitude der Form
+    \[
+        E_s (x,y) = E_0 (x,y) \cdot e^{i\phi(x,y)}
+    \]
+Jedes Stück der Fläche strahlt nach dem Huygen'schen Prinzip nun Kugelwellen ab, 
+die an einem Punkt $P(x',y')$ einen infinitesimalen Beitrag 
+    \[
+        \text{d}E_p = C \cdot \frac{E_s \text{d}\sigma}{r}\, e^{ikr}
+    \]
+zur Feldamplitude beitragen. $\displaystyle C = i \cdot \frac{\cos(\Theta)}{\lambda}$
+ist hierbei ein Vorfaktor. Integration über die Öffnung ergibt nun das 
+\emph{Fresnel-Kirchhoff'sche Beugungsintegral}
+    \[
+        E_p = \int \int C \cdot E_s \frac{e^{ikr}}{r} \dx \, \text{dy}
+    \]
+
+        \subsection*{Fresnel- und Frauenhofernäherung im Fernfeld}
+Zur Vereinfachung dieses Integrals können nun verschiedene Näherungen gemacht werden. \\
+Der Abstand zwischen beiden Schirmen sei nun sehr groß im Vergleich 
+zur Ausdehnung der Öffnung. Durch diese Annahme ist eine Taylorentwicklung des Abstands
+des Ursprungs der Kugelwelle und des Beobachtungspunktes $\vec{r}$ sinnvoll:
+\[
+    r = \sqrt{z_0^2 + (x-x')^2 + (y-y')^2} \approx z_0 \cdot \left( 1 + 
+    \frac{(x-x')^2}{2\,z_0^2}) + \frac{(y-y')^2}{2 \, z_0^2} + \dots \right)
+\]
+Die quadratischen Terme des Abstands im Nenner des Beugungsintegrals können
+hierbei, je nach Phase, vernachlässigt werden. Das Beugungsintegral ergibt sich
+in der sog. \emph{Fresnel-Fernfeldnäherung} zu
+\[
+    E(x',y',z_0) = i \cdot \frac{e^{ikz_0}}{\lambda \, z_0} 
+    = \int \int E_s(x,y) \cdot \exp(
+        \frac{-ik}{2\,z_0} \left((x-x')^2 + (y-y')^2\right)
+    ) \dx \, \text{dy}
+\]
+Sind die Abmessungen der beugenden Öffnung nun sehr klein im Vergleich zum 
+Schirmabstand $z_0$, so kann man zusätzlich die quadratischen Terme $x^2, \; y^2$ 
+in der Phase des Beugungsintegrals vernachlässigen
+\[
+    r \approx z_0 \, \left( 1 - \frac{xx'}{z_0^2} - \frac{yy'}{z_0^2} 
+        + \frac{x'^2+y'^2}{2\,z_0^2}
+        \right)
+\]
+Somit ergibt sich für das Beugungsintegral in der \emph{Frauenhofer-Fernfeldnäherung}
+\[
+    E(x',y',z_0) = A(x',y',z_0) \cdot \int \int E_s(x,y) \cdot
+    \exp(\frac{ik}{z_0}(xx'+yy')) \dx \, \text{dy}
+\]
+
+    \subsection*{Zusammenhang mit der Fouriertransformation}
+Die Feldverteilung an der Blendenöffnung kann, über die einfallende Feldamplitude 
+$E_e(x,y)$ moduliert, durch die Transmissionsfunktion der Blende $\tau(x,y)$ beschreiben 
+\[
+    E_s(x,y) = E_e(x,y) \cdot \tau(x,y)
+\]
+Wird nun das Beugungsintegral in der Frauenhofernäherung betrachtet, so 
+entspricht die Feldverteilung auf dem Schirm $E(x',y',z_0)$ der zweidimensionalen 
+Fouriertransformierten der Feldverteilung $E_s(x,y)$ an der beugenden Öffnung.
+Dieser Befund wird im Verlaufe des Versuches im Rahmen der \emph{Fourieroptik}
+benutzt, um die Bilder einiger Proben zu modulieren.
+
+        \subsection*{Bragg-Beugung}
+Die Bragg-Beugung beschreibt die Interferenz eines an einem dreidimensionalen 
+Gitter gestreuten Lichtstrahls. Ein wichtiges Resultat ist hier der Zusammenhang 
+zwischen Einfallswinkel und Wellenlänge des Strahls, die sog. \emph{Bragg-Bedingung}.
+\[
+    2\,d\sin(\theta) = m \, \lambda
+\]
+(Bild)
+
+    \section{Frequenzfilterung}
+Mit der im vorherigen Abschnitt erwähnten \emph{Fourieroptik}, können die 
+\emph{Raumfrequenzen} eines Bildes gefiltert werden. Die Raumfrequenzen sind durch
+\[
+    \nu_x = \frac{kx'}{z_0}, \quad \nu_y = \frac{ky'}{z_0}
+\]
+definiert. Die Fouriertransformation in der Fernfeldnäherung transformiert die 
+Welle zwischen $x \leftrightarrow \nu_x$ und $y \leftrightarrow \nu_y$.
+Bei der Raumfrequenzfilterung wird nun ein Teil dieser Frequenzen 
+unterdrückt. 
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.6\textwidth]{Abb/filter.PNG}
+        \caption{Verschiedene Arten von Raumfrequenzfilterdias
+                 \textit{Quelle: Holographie Protokoll, Fischer, Schauer, 2012}
+                }
+        \label{filter}
+    \end{figure}
+In obiger Abbildung sind einige Arten von Filtern zu sehen.
+    \begin{itemize}
+        \item[I] \textbf{Hochpass:} Die Schwärzung in der Mitte des Dias 
+        führt zu einer Absorption der tiefen Raumfrequenzen.
+        \item[II] \textbf{Tiefpass:} Die Schwärzung des Außenbereiches
+        führt zur alleinigen Transmission der tiefen Frequenzen
+        \item[III] \textbf{Richtungsfilter:} Hier wird nur eine bestimmte
+        Richtung transmittiert.
+        \item[IV] \textbf{Bandpass:} Kombination aus Hoch- und Tiefpass
+        \item[V] \textbf{Hochpass mit Richtungsfilter:} Kombination aus I und III
+    \end{itemize}
+
+    \section{Holographie}
+Ein Hologramm erlaubt, zusätzlich zur Intensitätsverteilung, auch die Speicherung
+der Phaseninformation der einfallenden Wellen. Im Gegensatz zum Foto werden so
+auch Informationen über die Entfernungen der einzelnen Punkte im Raum erfasst.\\
+Die Aufnahme eines Hologramms läuft folgendermaßen ab:
+Das Objekt wird mit einer kohärenten monochromatischen Lichtquelle beleuchtet. 
+Die reflektierte Welle, genannt Objektwelle, wird anschließend auf dem Film mit der 
+Referenzwelle überlagert. Das so entstehende Interferenzmuster enthält 
+Phaseninformationen.
+Siehe dazu Abbildung \ref{holo1}.
+\begin{figure}
+   \centering
+   \includegraphics[width=0.6\textwidth]{Abb/holo_ablauf.png} 
+   \caption{Ablauf einer holografischen Aufzeichnung}
+   \label{holo1}
+\end{figure}
+Im Rahmen dieses Versuches wird ein Transmissionhologramm, das Fresnel-Holografie,
+und ein Reflexionshologramm, das Weißlichthologramm, aufgenommen.
+    \begin{itemize}
+        \item \textbf{Transmissionshologramm:} Objekt- und Referenzwelle 
+        laufen von gleicher Seite auf den Film ein; bei Rekonstruktion 
+        läuft Referenzwelle durch den Film hindurch, sodass durch die 
+        Modulierung ebendieser die ursprüngliche Objektwelle entsteht
+        \item \textbf{Reflexionshologramm:} Wellen laufen aus unterschiedlichen
+        Richtungen auf Film ein; Hologramm kann später durch (Bragg-)Reflexion
+        einer einlaufenden Welle aus Richtung der Referenzwelle sichtbar gemacht werden
+    \end{itemize}
+
+        \subsubsection*{Denisjuk-Hologramm}
+Das Denisjuk-Hologramm ist ein Reflexionshologramm und lässt sich durch die
+Einstrahlung von weißem Licht rekonstruieren, weshalb es auch Weißlichthologramm
+genannt wird. Der Aufbau, in Abbildung \ref{holo2} zu sehen, ist sehr einfach.
+\begin{figure}[H]
+   \centering
+   \includegraphics[width=0.8\textwidth]{Abb/denisjuk.jpg} 
+   \caption{Aufnahme eines Denisjuk-Hologramms}
+   \label{holo2}
+\end{figure}
+Die Referenzwelle wird von hinten auf die Fotoplatte gestrahlt, während das Objekt 
+vor der Fotoplatte steht. Die reflektierte Objektwelle interferiert mit der
+Referenzwelle. Die durch diese Interferenz hervorgerufenen lokalen 
+Intensitätsverteilungen werden im Film durch unterschiedlich starke Schwärzung
+gespeichert. \\
+
+        \subsection*{Fresnel-Hologramm}
+Der Aufbau zur Aufnahme eines Fresnel-Hologramms ist in Abbildung \ref{holo1}
+zu sehen. Hier treffen die Objekt- und Referenzwelle von der gleichen Seite
+auf die Fotoplatte.\\
+Zur Rekonstruktion ist es notwendig die Referenzwelle wieder auf den Film
+einzustrahlen, was das arbeiten mit Transmissionshologrammen umständlich macht.
