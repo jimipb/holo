@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 NEXT 64-bit) (preloaded format=pdflatex 2019.8.6)  8 AUG 2019 15:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 NEXT 64-bit) (preloaded format=pdflatex 2019.8.6)  8 AUG 2019 17:40
 entering extended mode
 **c:/Users/jimmy/Documents/Studium/Semester_5/holo/holo.tex
 (c:/Users/jimmy/Documents/Studium/Semester_5/holo/holo.tex
@@ -696,11 +696,17 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 LaTeX Font Info:    Try loading font information for U+msb on input line 17.
  ("C:\Users\jimmy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) (c:/Users\jimmy\Documents\Studium\Semester_5\holo\titlepage.tex [1
+) (c:/Users\jimmy\Documents\Studium\Semester_5\holo\titlepage.tex
+<Abb/ur-logo-bildmarke-grau.png, id=3, 277.035pt x 191.71625pt>
+File: Abb/ur-logo-bildmarke-grau.png Graphic file (type png)
+<use Abb/ur-logo-bildmarke-grau.png>
+Package pdftex.def Info: Abb/ur-logo-bildmarke-grau.png  used on input line 9.
+(pdftex.def)             Requested size: 250.95587pt x 173.66928pt.
+ [1
 
 
 
-{C:/Users/jimmy/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]) (c:/Users\jimmy\Documents\Studium\Semester_5\holo\holo.toc)
+{C:/Users/jimmy/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <c:/Users/jimmy/Documents/Studium/Semester_5/holo/Abb/ur-logo-bildmarke-grau.png>]) (c:/Users\jimmy\Documents\Studium\Semester_5\holo\holo.toc)
 \tf@toc=\write4
 \openout4 = `holo.toc'.
 
@@ -732,7 +738,7 @@ Overfull \hbox (29.57068pt too wide) in paragraph at lines 2--4
 
 ]
 chapter 2.
-<Abb/rechteck.pdf, id=38, 642.4pt x 385.44pt>
+<Abb/rechteck.pdf, id=47, 642.4pt x 385.44pt>
 File: Abb/rechteck.pdf Graphic file (type pdf)
 <use Abb/rechteck.pdf>
 Package pdftex.def Info: Abb/rechteck.pdf  used on input line 29.
@@ -756,7 +762,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.2.1}) h
                                                   \fi \fi 
 l.62                 \end{align*}
                                   <c:/Users/jimmy/Documents/Studium/Semester_5/holo/Abb/rechteck.pdf>]
-<Abb/rechteck_10.pdf, id=61, 642.4pt x 385.44pt>
+<Abb/rechteck_10.pdf, id=70, 642.4pt x 385.44pt>
 File: Abb/rechteck_10.pdf Graphic file (type pdf)
 <use Abb/rechteck_10.pdf>
 Package pdftex.def Info: Abb/rechteck_10.pdf  used on input line 72.
@@ -766,7 +772,7 @@ Underfull \hbox (badness 4647) in paragraph at lines 73--73
 [][]\OT1/cmr/m/n/10.95 Die Recht-ecks-funk-ti-on
  []
 
-<Abb/rechteck_1000.pdf, id=62, 642.4pt x 385.44pt>
+<Abb/rechteck_1000.pdf, id=71, 642.4pt x 385.44pt>
 File: Abb/rechteck_1000.pdf Graphic file (type pdf)
 <use Abb/rechteck_1000.pdf>
 Package pdftex.def Info: Abb/rechteck_1000.pdf  used on input line 78.
@@ -776,7 +782,7 @@ Underfull \hbox (badness 4647) in paragraph at lines 79--79
 [][]\OT1/cmr/m/n/10.95 Die Recht-ecks-funk-ti-on
  []
 
-<Abb/dreieck.pdf, id=66, 642.4pt x 385.44pt>
+<Abb/dreieck.pdf, id=75, 642.4pt x 385.44pt>
 File: Abb/dreieck.pdf Graphic file (type pdf)
 <use Abb/dreieck.pdf>
 Package pdftex.def Info: Abb/dreieck.pdf  used on input line 91.
@@ -813,7 +819,7 @@ pdfTeX warning: pdflatex (file c:/Users/jimmy/Documents/Studium/Semester_5/holo/
 
 pdfTeX warning: pdflatex (file c:/Users/jimmy/Documents/Studium/Semester_5/holo/Abb/dreieck.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 >]
-<Abb/dreieck_1.pdf, id=97, 642.4pt x 385.44pt>
+<Abb/dreieck_1.pdf, id=106, 642.4pt x 385.44pt>
 File: Abb/dreieck_1.pdf Graphic file (type pdf)
 <use Abb/dreieck_1.pdf>
 Package pdftex.def Info: Abb/dreieck_1.pdf  used on input line 132.
@@ -823,7 +829,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 133--133
 [][]\OT1/cmr/m/n/10.95 Die Drei-ecks-funk-ti-on
  []
 
-<Abb/dreieck_10.pdf, id=98, 642.4pt x 385.44pt>
+<Abb/dreieck_10.pdf, id=107, 642.4pt x 385.44pt>
 File: Abb/dreieck_10.pdf Graphic file (type pdf)
 <use Abb/dreieck_10.pdf>
 Package pdftex.def Info: Abb/dreieck_10.pdf  used on input line 138.
@@ -847,18 +853,18 @@ l.166
 
 pdfTeX warning: pdflatex (file c:/Users/jimmy/Documents/Studium/Semester_5/holo/Abb/dreieck_10.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 >] [7]
-<Abb/filter.PNG, id=135, 694.9965pt x 337.86224pt>
+<Abb/filter.PNG, id=144, 694.9965pt x 337.86224pt>
 File: Abb/filter.PNG Graphic file (type png)
 <use Abb/filter.PNG>
 Package pdftex.def Info: Abb/filter.PNG  used on input line 250.
 (pdftex.def)             Requested size: 250.95587pt x 121.99634pt.
  [8]
-<Abb/holo_ablauf.png, id=144, 557.08125pt x 323.2075pt>
+<Abb/holo_ablauf.png, id=152, 557.08125pt x 323.2075pt>
 File: Abb/holo_ablauf.png Graphic file (type png)
 <use Abb/holo_ablauf.png>
 Package pdftex.def Info: Abb/holo_ablauf.png  used on input line 280.
 (pdftex.def)             Requested size: 250.95587pt x 145.59984pt.
-<Abb/denisjuk.jpg, id=146, 750.805pt x 441.65pt>
+<Abb/denisjuk.jpg, id=154, 750.805pt x 441.65pt>
 File: Abb/denisjuk.jpg Graphic file (type jpg)
 <use Abb/denisjuk.jpg>
 Package pdftex.def Info: Abb/denisjuk.jpg  used on input line 302.
@@ -885,15 +891,275 @@ l.1 \chapter
 l.1 \chapter
             {Versuchsdurchführung} <c:/Users/jimmy/Documents/Studium/Semester_5/holo/Abb/holo_ablauf.png> <c:/Users/jimmy/Documents/Studium/Semester_5/holo/Abb/denisjuk.jpg>] [11]
 chapter 3.
+<Abb/Abb_1.jpg, id=175, 457.71pt x 179.4705pt>
+File: Abb/Abb_1.jpg Graphic file (type jpg)
+<use Abb/Abb_1.jpg>
+Package pdftex.def Info: Abb/Abb_1.jpg  used on input line 7.
+(pdftex.def)             Requested size: 376.42744pt x 147.6049pt.
+<Abb/Abb_2.jpg, id=176, 408.92775pt x 499.8675pt>
+File: Abb/Abb_2.jpg Graphic file (type jpg)
+<use Abb/Abb_2.jpg>
+Package pdftex.def Info: Abb/Abb_2.jpg  used on input line 14.
+(pdftex.def)             Requested size: 167.29967pt x 204.50461pt.
+<Abb/Abb_3.JPG, id=177, 5203.44pt x 3468.96pt>
+File: Abb/Abb_3.JPG Graphic file (type jpg)
+<use Abb/Abb_3.JPG>
+Package pdftex.def Info: Abb/Abb_3.JPG  used on input line 31.
+(pdftex.def)             Requested size: 131.1234pt x 87.39073pt.
+<Abb/Abb_4.JPG, id=178, 5203.44pt x 3468.96pt>
+File: Abb/Abb_4.JPG Graphic file (type jpg)
+<use Abb/Abb_4.JPG>
+Package pdftex.def Info: Abb/Abb_4.JPG  used on input line 36.
+(pdftex.def)             Requested size: 131.1234pt x 87.39073pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--37
+[][]\OT1/cmr/m/n/10.95 Fourier
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--37
+\OT1/cmr/m/n/10.95 trans-for-ma-ti-
+ []
+
+<Abb/Abb_5.JPG, id=179, 5203.44pt x 3468.96pt>
+File: Abb/Abb_5.JPG Graphic file (type jpg)
+<use Abb/Abb_5.JPG>
+Package pdftex.def Info: Abb/Abb_5.JPG  used on input line 41.
+(pdftex.def)             Requested size: 131.1234pt x 87.39073pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--42
+[][]\OT1/cmr/m/n/10.95 Vertikaler
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--42
+\OT1/cmr/m/n/10.95 Rich-tungs-fil-
+ []
+
 [12
 
-]) (c:/Users\jimmy\Documents\Studium\Semester_5\holo\Kap/fazit.tex [13]
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3.1}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.45 
+     pdfTeX warning (ext4): destination with the same identifier (name{figure.3.2}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.45 
+      <c:/Users/jimmy/Documents/Studium/Semester_5/holo/Abb/Abb_1.jpg> <c:/Users/jimmy/Documents/Studium/Semester_5/holo/Abb/Abb_2.jpg>]
+<Abb/Abb_6.JPG, id=186, 334.851pt x 234.8775pt>
+File: Abb/Abb_6.JPG Graphic file (type jpg)
+<use Abb/Abb_6.JPG>
+Package pdftex.def Info: Abb/Abb_6.JPG  used on input line 51.
+(pdftex.def)             Requested size: 169.39119pt x 118.81827pt.
+<Abb/Abb_7.JPG, id=187, 327.624pt x 235.47975pt>
+File: Abb/Abb_7.JPG Graphic file (type jpg)
+<use Abb/Abb_7.JPG>
+Package pdftex.def Info: Abb/Abb_7.JPG  used on input line 56.
+(pdftex.def)             Requested size: 169.39119pt x 121.7531pt.
+<Abb/Abb_8.JPG, id=188, 1003.75pt x 669.50125pt>
+File: Abb/Abb_8.JPG Graphic file (type jpg)
+<use Abb/Abb_8.JPG>
+Package pdftex.def Info: Abb/Abb_8.JPG  used on input line 66.
+(pdftex.def)             Requested size: 169.39119pt x 112.97601pt.
+<Abb/Abb_9.JPG, id=189, 1003.75pt x 669.50125pt>
+File: Abb/Abb_9.JPG Graphic file (type jpg)
+<use Abb/Abb_9.JPG>
+Package pdftex.def Info: Abb/Abb_9.JPG  used on input line 71.
+(pdftex.def)             Requested size: 169.39119pt x 112.97601pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 72--72
+[][]\OT1/cmr/m/n/10.95 Fouriertransformation
+ []
+
+<Abb/Abb_10.JPG, id=190, 1003.75pt x 669.50125pt>
+File: Abb/Abb_10.JPG Graphic file (type jpg)
+<use Abb/Abb_10.JPG>
+Package pdftex.def Info: Abb/Abb_10.JPG  used on input line 78.
+(pdftex.def)             Requested size: 131.1234pt x 87.45706pt.
+<Abb/Abb_11.JPG, id=191, 1003.75pt x 669.50125pt>
+File: Abb/Abb_11.JPG Graphic file (type jpg)
+<use Abb/Abb_11.JPG>
+Package pdftex.def Info: Abb/Abb_11.JPG  used on input line 83.
+(pdftex.def)             Requested size: 131.1234pt x 87.45706pt.
+<Abb/Abb_12.JPG, id=192, 1003.75pt x 669.50125pt>
+File: Abb/Abb_12.JPG Graphic file (type jpg)
+<use Abb/Abb_12.JPG>
+Package pdftex.def Info: Abb/Abb_12.JPG  used on input line 88.
+(pdftex.def)             Requested size: 131.1234pt x 87.45706pt.
+[13pdfTeX warning (ext4): destination with the same identifier (name{figure.3.3}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.91             \end{figure}
+                             pdfTeX warning (ext4): destination with the same identifier (name{figure.3.4}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.91             \end{figure}
+                             pdfTeX warning (ext4): destination with the same identifier (name{figure.3.5}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.91             \end{figure}
+                             pdfTeX warning (ext4): destination with the same identifier (name{figure.3.6}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.91             \end{figure}
+                             pdfTeX warning (ext4): destination with the same identifier (name{figure.3.7}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.91             \end{figure}
+                              <c:/Users/jimmy/Documents/Studium/Semester_5/holo/Abb/Abb_3.JPG> <c:/Users/jimmy/Documents/Studium/Semester_5/holo/Abb/Abb_4.JPG> <c:/Users/jimmy/Documents/Studium/Semester_5/holo/Abb/Abb_5.JPG> <c:/Users/jimmy/Documents/Studium/Semester_5/holo/Abb/Abb_6.JPG> <c:/Users/jimmy/Documents/Studium/Semester_5/holo/Abb/Abb_7.JPG>]
+<Abb/Abb_13.JPG, id=204, 1003.75pt x 669.50125pt>
+File: Abb/Abb_13.JPG Graphic file (type jpg)
+<use Abb/Abb_13.JPG>
+Package pdftex.def Info: Abb/Abb_13.JPG  used on input line 98.
+(pdftex.def)             Requested size: 169.39119pt x 112.97601pt.
+<Abb/Abb_14.JPG, id=205, 1003.75pt x 669.50125pt>
+File: Abb/Abb_14.JPG Graphic file (type jpg)
+<use Abb/Abb_14.JPG>
+Package pdftex.def Info: Abb/Abb_14.JPG  used on input line 103.
+(pdftex.def)             Requested size: 169.39119pt x 112.97601pt.
+<Abb/Abb_15.JPG, id=206, 1003.75pt x 669.50125pt>
+File: Abb/Abb_15.JPG Graphic file (type jpg)
+<use Abb/Abb_15.JPG>
+Package pdftex.def Info: Abb/Abb_15.JPG  used on input line 110.
+(pdftex.def)             Requested size: 169.39119pt x 112.97601pt.
+<Abb/Abb_16.JPG, id=207, 1003.75pt x 669.50125pt>
+File: Abb/Abb_16.JPG Graphic file (type jpg)
+<use Abb/Abb_16.JPG>
+Package pdftex.def Info: Abb/Abb_16.JPG  used on input line 115.
+(pdftex.def)             Requested size: 169.39119pt x 112.97601pt.
+ [14pdfTeX warning (ext4): destination with the same identifier (name{figure.3.8}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.118             \end{figure}
+                              pdfTeX warning (ext4): destination with the same identifier (name{figure.3.9}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.118             \end{figure}
+                              pdfTeX warning (ext4): destination with the same identifier (name{figure.3.10}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.118             \end{figure}
+                              pdfTeX warning (ext4): destination with the same identifier (name{figure.3.11}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.118             \end{figure}
+                              pdfTeX warning (ext4): destination with the same identifier (name{figure.3.12}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.118             \end{figure}
+                               <c:/Users/jimmy/Documents/Studium/Semester_5/holo/Abb/Abb_8.JPG> <c:/Users/jimmy/Documents/Studium/Semester_5/holo/Abb/Abb_9.JPG> <c:/Users/jimmy/Documents/Studium/Semester_5/holo/Abb/Abb_10.JPG> <c:/Users/jimmy/Documents/Studium/Semester_5/holo/Abb/Abb_11.JPG> <c:/Users/jimmy/Documents/Studium/Semester_5/holo/Abb/Abb_12.JPG>]
+<Abb/Abb_17.JPG, id=218, 1003.75pt x 669.50125pt>
+File: Abb/Abb_17.JPG Graphic file (type jpg)
+<use Abb/Abb_17.JPG>
+Package pdftex.def Info: Abb/Abb_17.JPG  used on input line 126.
+(pdftex.def)             Requested size: 131.1234pt x 87.45706pt.
+<Abb/Abb_18.JPG, id=219, 1003.75pt x 669.50125pt>
+File: Abb/Abb_18.JPG Graphic file (type jpg)
+<use Abb/Abb_18.JPG>
+Package pdftex.def Info: Abb/Abb_18.JPG  used on input line 131.
+(pdftex.def)             Requested size: 131.1234pt x 87.45706pt.
+<Abb/Abb_19.JPG, id=220, 1003.75pt x 669.50125pt>
+File: Abb/Abb_19.JPG Graphic file (type jpg)
+<use Abb/Abb_19.JPG>
+Package pdftex.def Info: Abb/Abb_19.JPG  used on input line 136.
+(pdftex.def)             Requested size: 131.1234pt x 87.45706pt.
+
+Overfull \hbox (1.95259pt too wide) in paragraph at lines 137--137
+[][]\OT1/cmr/m/n/10.95 Vertikalfilter| 
+ []
+
+[15pdfTeX warning (ext4): destination with the same identifier (name{figure.3.13}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.143 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.3.14}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.143 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.3.15}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.143 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.3.16}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.143 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.3.17}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.143 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.3.18}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.143 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.3.19}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.143 
+       <c:/Users/jimmy/Documents/Studium/Semester_5/holo/Abb/Abb_13.JPG> <c:/Users/jimmy/Documents/Studium/Semester_5/holo/Abb/Abb_14.JPG> <c:/Users/jimmy/Documents/Studium/Semester_5/holo/Abb/Abb_15.JPG> <c:/Users/jimmy/Documents/Studium/Semester_5/holo/Abb/Abb_16.JPG> <c:/Users/jimmy/Documents/Studium/Semester_5/holo/Abb/Abb_17.JPG> <c:/Users/jimmy/Documents/Studium/Semester_5/holo/Abb/Abb_18.JPG> <c:/Users/jimmy/Documents/Studium/Semester_5/holo/Abb/Abb_19.JPG>]
+<Abb/Abb_21.JPG, id=235, 310.761pt x 278.84175pt>
+File: Abb/Abb_21.JPG Graphic file (type jpg)
+<use Abb/Abb_21.JPG>
+Package pdftex.def Info: Abb/Abb_21.JPG  used on input line 151.
+(pdftex.def)             Requested size: 250.95587pt x 225.18405pt.
+ [16pdfTeX warning (ext4): destination with the same identifier (name{figure.3.20}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.157 
+       <c:/Users/jimmy/Documents/Studium/Semester_5/holo/Abb/Abb_21.JPG>]
+<Abb/weislicht.jpg, id=242, 1843.88875pt x 1978.39125pt>
+File: Abb/weislicht.jpg Graphic file (type jpg)
+<use Abb/weislicht.jpg>
+Package pdftex.def Info: Abb/weislicht.jpg  used on input line 163.
+(pdftex.def)             Requested size: 169.39119pt x 181.73044pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 164--164
+[][]\OT1/cmr/m/n/10.95 Unser Wei-lichtho-lo-
+ []
+
+<Abb/weislicht_ref.jpg, id=243, 1011.78pt x 1500.60625pt>
+File: Abb/weislicht_ref.jpg Graphic file (type jpg)
+<use Abb/weislicht_ref.jpg>
+Package pdftex.def Info: Abb/weislicht_ref.jpg  used on input line 168.
+(pdftex.def)             Requested size: 169.39119pt x 251.23003pt.
+) (c:/Users\jimmy\Documents\Studium\Semester_5\holo\Kap/fazit.tex [17pdfTeX warning (ext4): destination with the same identifier (name{figure.3.21}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1 \chapter
+            {Fazit}pdfTeX warning (ext4): destination with the same identifier (name{figure.3.22}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1 \chapter
+            {Fazit} <c:/Users/jimmy/Documents/Studium/Semester_5/holo/Abb/weislicht.jpg> <c:/Users/jimmy/Documents/Studium/Semester_5/holo/Abb/weislicht_ref.jpg>]
 chapter 4.
-) (c:/Users\jimmy\Documents\Studium\Semester_5\holo\Kap/quellen.tex [14
+) (c:/Users\jimmy\Documents\Studium\Semester_5\holo\Kap/quellen.tex [18
 
 ])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 27.
- [15
+ [19
 
 ]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 27.
@@ -905,17 +1171,17 @@ Package rerunfilecheck Info: File `holo.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 27.
  ) 
 Here is how much of TeX's memory you used:
- 21680 strings out of 492895
- 417532 string characters out of 3123736
+ 21832 strings out of 492895
+ 419931 string characters out of 3123736
  588995 words of memory out of 3000000
- 25356 multiletter control sequences out of 15000+200000
+ 25451 multiletter control sequences out of 15000+200000
  542653 words of font info for 62 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  45i,17n,71p,9152b,821s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/jimmy/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/jimmy/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/jimmy/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/jimmy/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/jimmy/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/jimmy/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/jimmy/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/jimmy/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/jimmy/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/jimmy/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/jimmy/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/jimmy/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Users/jimmy/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/jimmy/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/jimmy/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/jimmy/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Users/jimmy/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on c:/Users\jimmy\Documents\Studium\Semester_5\holo\holo.pdf (15 pages, 547734 bytes).
+Output written on c:/Users\jimmy\Documents\Studium\Semester_5\holo\holo.pdf (19 pages, 26571673 bytes).
 PDF statistics:
- 280 PDF objects out of 1000 (max. 8388607)
- 47 named destinations out of 1000 (max. 500000)
- 110 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 371 PDF objects out of 1000 (max. 8388607)
+ 80 named destinations out of 1000 (max. 500000)
+ 249 words of extra memory for PDF output out of 10000 (max. 10000000)
 
