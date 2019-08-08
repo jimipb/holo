@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 NEXT 64-bit) (preloaded format=pdflatex 2019.8.6)  8 AUG 2019 17:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 NEXT 64-bit) (preloaded format=pdflatex 2019.8.6)  8 AUG 2019 19:23
 entering extended mode
 **c:/Users/jimmy/Documents/Studium/Semester_5/holo/holo.tex
 (c:/Users/jimmy/Documents/Studium/Semester_5/holo/holo.tex
@@ -1081,14 +1081,19 @@ File: Abb/Abb_18.JPG Graphic file (type jpg)
 <use Abb/Abb_18.JPG>
 Package pdftex.def Info: Abb/Abb_18.JPG  used on input line 131.
 (pdftex.def)             Requested size: 131.1234pt x 87.45706pt.
+
+Overfull \hbox (1.95259pt too wide) in paragraph at lines 132--132
+[][]\OT1/cmr/m/n/10.95 Vertikalfilter| 
+ []
+
 <Abb/Abb_19.JPG, id=237, 1003.75pt x 669.50125pt>
 File: Abb/Abb_19.JPG Graphic file (type jpg)
 <use Abb/Abb_19.JPG>
 Package pdftex.def Info: Abb/Abb_19.JPG  used on input line 136.
 (pdftex.def)             Requested size: 131.1234pt x 87.45706pt.
 
-Overfull \hbox (1.95259pt too wide) in paragraph at lines 137--137
-[][]\OT1/cmr/m/n/10.95 Vertikalfilter| 
+Overfull \hbox (14.42343pt too wide) in paragraph at lines 137--137
+[][]\OT1/cmr/m/n/10.95 Horizontalfilter| 
  []
 
 [15pdfTeX warning (ext4): destination with the same identifier (name{figure.3.13}) has been already used, duplicate ignored
@@ -1198,7 +1203,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  45i,17n,71p,9152b,821s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/jimmy/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/jimmy/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/jimmy/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/jimmy/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/jimmy/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/jimmy/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/jimmy/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/jimmy/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/jimmy/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/jimmy/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/jimmy/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/jimmy/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Users/jimmy/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/jimmy/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/jimmy/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/jimmy/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Users/jimmy/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on c:/Users\jimmy\Documents\Studium\Semester_5\holo\holo.pdf (19 pages, 1940454 bytes).
+Output written on c:/Users\jimmy\Documents\Studium\Semester_5\holo\holo.pdf (19 pages, 1940467 bytes).
 PDF statistics:
  390 PDF objects out of 1000 (max. 8388607)
  82 named destinations out of 1000 (max. 500000)
